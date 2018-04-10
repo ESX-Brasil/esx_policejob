@@ -5,7 +5,7 @@ Config.DrawDistance               = 100.0
 Config.MarkerType                 = 1
 Config.MarkerSize                 = { x = 1.5, y = 1.5, z = 1.0 }
 Config.MarkerColor                = { r = 50, g = 50, b = 204 }
-Config.EnablePlayerManagement     = false
+Config.EnablePlayerManagement     = true
 Config.EnableArmoryManagement     = false
 Config.EnableESXIdentity          = true -- só ligue isto se você estiver usando esx_identity
 Config.EnableNonFreemodePeds      = true -- ligue isto se você quiser personalizado peds
