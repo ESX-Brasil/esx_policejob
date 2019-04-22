@@ -1,53 +1,52 @@
 # esx_policejob
 
-### Requirements
-* Auto mode
-  * [esx_billing](https://github.com/FXServer-ESX/fxserver-esx_billing)
+### Requisitos
+* Modo automático
+  * [esx_billing](https://github.com/ESX-Brasil/esx_billing)
 
-* Player management (boss actions and armory with buyable weapons)
-  * [esx_society](https://github.com/FXServer-ESX/fxserver-esx_society)
-  * [esx_datastore](https://github.com/FXServer-ESX/fxserver-esx_datastore)
+* Gerenciamento de jogadores (ações de chefe e arsenal com armas compráveis)
+  * [esx_society](https://github.com/ESX-Brasil/esx_society)
+  * [esx_datastore](https://github.com/ESX-Brasil/esx_datastore)
 
-* ESX Identity Support
-  * [esx_identity](https://github.com/ESX-Org/esx_identity)
+* Suporte de identidade ESX
+  * [esx_identity](https://github.com/ESX-Brasil/esx_identity)
 
-* ESX License Support
-  * [esx_license](https://github.com/ESX-Org/esx_license)
+* Suporte de Licença ESX
+  * [esx_license](https://github.com/ESX-Brasil/esx_license)
 
-## Download & Installation
+## Download e Instalação
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-org/esx_policejob
-```
-
-### Using Git
+### Usando o Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_policejob [esx]/esx_policejob
+git clone https://github.com/ESX-Brasil/esx_policejob [esx]/esx_policejob
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/esx_policejob/archive/master.zip
-- Put it in the `[esx]` directory
+### Manualmente
+- Download https://github.com/ESX-Brasil/esx_policejob/archive/master.zip
+- Coloque-o no `[esx]` diretório
 
 
-## Installation
-- Import `esx_policejob.sql` in your database
-- Add this in your server.cfg :
+## Instalação
+- Importar `esx_policejob.sql` em seu banco de dados
+- Adicione isto ao seu server.cfg :
 
 ```
 start esx_policejob
 ```
--  * If you want player management you have to set `Config.EnablePlayerManagement` to `true` in `config.lua`
-   * If you want armory management you have to set `Config.EnableArmoryManagement` to `true` in `config.lua`
-   * If you want license management you have to set `Config.EnableLicenses` to `true` in `config.lua`
+-  * Se você quiser gerenciamento de jogadores, você deve definir `Config.EnablePlayerManagement` para `true` em `config.lua`
+   * Se você quiser gerenciamento de armory você tem que definir `Config.EnableArmoryManagement` para `true` em `config.lua`
+   * Se você quiser gerenciamento de licenças, você deve definir `Config.EnableLicenses` para `true` em `config.lua`
+
+# Discord
+
+[![Join ESX Brasil](https://discordapp.com/api/guilds/432980396070666250/embed.png?style=banner2)](https://discord.gg/8zGbh3T)
 
 # Legal
 ### License
-esx_policejob - police script for ESX
+esx_policejob - ESX for FiveM
 
-Copyright (C) 2015-2018 Jérémie N'gadi
+Copyright (C) 2015-2019 ESX-Brasil
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
