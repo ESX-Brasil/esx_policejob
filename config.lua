@@ -7,14 +7,14 @@ Config.MarkerColor                = { r = 50, g = 50, b = 204 }
 
 Config.EnablePlayerManagement     = false
 Config.EnableArmoryManagement     = false
-Config.EnableESXIdentity          = false -- enable if you're using esx_identity
-Config.EnableNonFreemodePeds      = false -- turn this on if you want custom peds
-Config.EnableLicenses             = false -- enable if you're using esx_license
+Config.EnableESXIdentity          = false -- ative se você estiver usando esx_identity
+Config.EnableNonFreemodePeds      = false -- ligue isto se você quiser peds personalizados
+Config.EnableLicenses             = false -- ative se você estiver usando esx_license
 
-Config.EnableHandcuffTimer        = true -- enable handcuff timer? will unrestrain player after the time ends
+Config.EnableHandcuffTimer        = true -- habilitar temporizador de algema? vai desafogar jogador depois que o tempo acabar
 Config.HandcuffTimer              = 10 * 60000 -- 10 mins
 
-Config.EnableJobBlip              = false -- enable blips for colleagues, requires esx_society
+Config.EnableJobBlip              = false -- habilitar blips para colegas, requer esx_society
 
 Config.MaxInService               = -1
 Config.Locale                     = 'br'
@@ -200,7 +200,7 @@ Config.AuthorizedHelicopters = {
 	}
 }
 
--- CHECK SKINCHANGER CLIENT MAIN.LUA for matching elements
+-- CHECK SKINCHANGER CLIENT MAIN.LUA para elementos correspondentes
 
 Config.Uniforms = {
 	recruit_wear = {
@@ -299,7 +299,7 @@ Config.Uniforms = {
 			['ears_1'] = 2,     ['ears_2'] = 0
 		}
 	},
-	lieutenant_wear = { -- currently the same as intendent_wear
+	lieutenant_wear = { -- atualmente o mesmo que intendent_wear
 		male = {
 			['tshirt_1'] = 58,  ['tshirt_2'] = 0,
 			['torso_1'] = 55,   ['torso_2'] = 0,
@@ -347,7 +347,7 @@ Config.Uniforms = {
 			['ears_1'] = 2,     ['ears_2'] = 0
 		}
 	},
-	boss_wear = { -- currently the same as chef_wear
+	boss_wear = { -- atualmente o mesmo que chef_wear
 		male = {
 			['tshirt_1'] = 58,  ['tshirt_2'] = 0,
 			['torso_1'] = 55,   ['torso_2'] = 0,

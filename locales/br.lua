@@ -61,7 +61,7 @@ Locales['br'] = {
   ['service_in_announce'] = 'operador ~y~%s~s~ entrou em serviço!',
   ['service_out'] = 'você saiu do serviço.',
   ['service_out_announce'] = 'operador ~y~%s~s~ saiu do serviço.',
-  -- Action Menu
+  -- Action Menu.
   ['citizen_interaction'] = 'Interagir com o cidadão',
   ['vehicle_interaction'] = 'Interagir com o veículo',
   ['object_spawner'] = 'Interagir com as rodovias',
@@ -80,6 +80,7 @@ Locales['br'] = {
   ['licence_you_revoked'] = 'você revogou um ~b~%s~s~ que pertencia a ~y~%s~s~',
   ['no_players_nearby'] = 'nenhum jogador nas proximidades',
   ['being_searched'] = 'você está sendo ~y~porcurador~s~ pela ~b~Policia~s~',
+
   -- Vehicle interaction
   ['vehicle_info'] = 'Informações',
   ['pick_lock'] = 'Trancar veículo',
@@ -95,6 +96,7 @@ Locales['br'] = {
   ['search_database_error_invalid'] = 'que ~r~não~s~ é um número de registro ~y~válido~s~',
   ['search_database_error_not_found'] = 'esse número de ~y~registror~s~ ~r~não~s~ está registrado em um veículo!',
   ['search_database_found'] = 'o veículo está ~y~registrado~s~ para ~b~%s~s~',
+
   -- Traffic interaction
   ['traffic_interaction'] = 'Interagir com as rodovias',
   ['cone'] = 'Cones',
@@ -102,6 +104,7 @@ Locales['br'] = {
   ['spikestrips'] = 'Fita de pregos',
   ['box'] = 'Caixa',
   ['cash'] = 'Caixa de dinheiro',
+
   -- ID Card Menu
   ['name'] = 'nome: %s',
   ['job'] = 'trabalho: %s',
@@ -113,6 +116,7 @@ Locales['br'] = {
   ['unknown'] = 'desconhecido',
   ['male'] = 'masculino',
   ['female'] = 'feminino',
+
   -- Body Search Menu
   ['guns_label'] = '--- Armas ---',
   ['inventory_label'] = '--- Inventário ---',
@@ -132,10 +136,12 @@ Locales['br'] = {
   ['average_offense'] = 'Infração média',
   ['major_offense'] = 'Infração grave',
   ['fine_total'] = 'multa: %s',
+
   -- Vehicle Info Menu
   ['plate'] = 'placa: %s',
   ['owner_unknown'] = 'proprietário: Desconhecido',
   ['owner'] = 'proprietário: %s',
+
   -- Boss Menu
   ['open_bossmenu'] = 'Pressione ~INPUT_CONTEXT~ para abrir o menu',
   ['quantity_invalid'] = 'quantidade inválida',
@@ -144,10 +150,12 @@ Locales['br'] = {
   ['quantity'] = 'quantidade',
   ['inventory'] = 'inventário',
   ['police_stock'] = 'Estoque Policial',
+
   -- Misc
   ['remove_prop'] = 'Pressione ~INPUT_CONTEXT~ para remover o objeto',
   ['map_blip'] = 'Departamento de Polícia',
   ['unrestrained_timer'] = 'Você sente suas algemas lentamente perdendo aderência e desaparecendo.',
+
   -- Notifications
   ['alert_police'] = 'Alerta da Polícia',
   ['phone_police'] = 'police',
