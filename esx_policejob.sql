@@ -1,27 +1,27 @@
-USE `essentialmode`;
+USE `es_extended`;
 
 INSERT INTO `addon_account` (name, label, shared) VALUES
-	('society_police', 'Polícia', 1)
+	('society_police', 'Police', 1)
 ;
 
 INSERT INTO `datastore` (name, label, shared) VALUES
-	('society_police', 'Polícia', 1)
+	('society_police', 'Police', 1)
 ;
 
 INSERT INTO `addon_inventory` (name, label, shared) VALUES
-	('society_police', 'Polícia', 1)
+	('society_police', 'Police', 1)
 ;
 
 INSERT INTO `jobs` (name, label) VALUES
-	('police','LSPD')
+	('police', 'LSPD')
 ;
 
 INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
-	('police',0,'recruit','Recruta',20,'{}','{}'),
-	('police',1,'officer','Oficial',40,'{}','{}'),
-	('police',2,'sergeant','Sargento',60,'{}','{}'),
-	('police',3,'lieutenant','Tenente',85,'{}','{}'),
-	('police',4,'boss','Comandante',100,'{}','{}')
+	('police',0,'recruit','Recrue',20,'{}','{}'),
+	('police',1,'officer','Officier',40,'{}','{}'),
+	('police',2,'sergeant','Sergent',60,'{}','{}'),
+	('police',3,'lieutenant','Lieutenant',85,'{}','{}'),
+	('police',4,'boss','Commandant',100,'{}','{}')
 ;
 
 CREATE TABLE `fine_types` (
@@ -34,10 +34,10 @@ CREATE TABLE `fine_types` (
 );
 
 INSERT INTO `fine_types` (label, amount, category) VALUES
-	('Abuso de autoridade',30,0),
-	('Cruzar uma linha contínua',40,0),
-	('Tráfego contracorrente',250,0),
-	('Reviravolta não autorizada',250,0),
+	('Usage abusif du klaxon',30,0),
+	('Franchir une ligne continue',40,0),
+	('Circulation à contresens',250,0),
+	('Demi-tour non autorisé',250,0),
 	('Circulation hors-route',170,0),
 	('Non-respect des distances de sécurité',30,0),
 	('Arrêt dangereux / interdit',150,0),
@@ -75,15 +75,15 @@ INSERT INTO `fine_types` (label, amount, category) VALUES
 	('Possession de drogue',650,2),
 	('Prise d\'ôtage civil',1500,2),
 	('Prise d\'ôtage agent de l\'état',2000,2),
-	('Roubar casas',650,2),
-	('Roubar loja',650,2),
-	('Assalto a banco',1500,2),
-	('Atira em um civil',2000,3),
-	('Atira em um agente do estado',2500,3),
-	('Tentativa de homicídio em civil',3000,3),
-	('Tentativa de assassinato em um agente do estado',5000,3),
-	('Assassinato de um civil',10000,3),
-	('Assassinato de um agente do estadual',30000,3),
-	('Assassinato involuntariamente',1800,3),
-	('Golpe de negócios',2000,2)
+	('Braquage particulier',650,2),
+	('Braquage magasin',650,2),
+	('Braquage de banque',1500,2),
+	('Tir sur civil',2000,3),
+	('Tir sur agent de l\'état',2500,3),
+	('Tentative de meurtre sur civil',3000,3),
+	('Tentative de meurtre sur agent de l\'état',5000,3),
+	('Meurtre sur civil',10000,3),
+	('Meurte sur agent de l\'état',30000,3),
+	('Meurtre involontaire',1800,3),
+	('Escroquerie à l\'entreprise',2000,2)
 ;
